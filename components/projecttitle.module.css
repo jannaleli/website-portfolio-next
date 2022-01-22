@@ -1,0 +1,22 @@
+.title {
+  width: 100%;
+  height: 30px;
+  border-radius: 5%;
+  background-color: var(--color-nav-1);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  justify-content: center;
+}
+
+.text {
+  text-align: left;
+  display: inline-block;
+  color: var(--color-white-00);
+  font-weight: 600;
+  margin: 6px 0px 0px 10px;
+}
+
+.image {
+  max-height: 100%;
+  max-width: 100%;
+}
