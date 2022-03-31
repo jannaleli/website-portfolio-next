@@ -3,9 +3,20 @@
   padding: 0 0.5rem;
   background-color: var(--color-white-00);
   height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .cardlist {
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 50px 5px 5px 5px;
+}
+
+.projlist {
   height: 100%;
   display: inline-flex;
   flex-direction: row;

@@ -1,6 +1,6 @@
 .card {
   width: 300px;
-  height: 300px;
+  height: 315px;
   border-radius: 3%;
   background-color: var(--color-white-00);
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
@@ -20,7 +20,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 5px 5px 0px 5px;
+  margin: 5px 0px 0px 0px;
 }
 
 .image {

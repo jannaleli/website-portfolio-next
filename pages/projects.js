@@ -8,7 +8,7 @@ export default function Projects({ projects }) {
   return (
     <div className={classes.container}>
       <div>
-        <ul className={classes.projectcardlist}>
+        <ul className={classes.projlist}>
           {projects.map(project => (
             <SideProjectCard project={project} />
           ))}
